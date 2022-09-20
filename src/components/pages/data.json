@@ -1,0 +1,131 @@
+{
+  "burgers": [
+    {
+      "name": "Hamburger",
+      "description": "Grilled prime Angus beef patty topped with sautéed onions, melted cheddar cheese, crisp lettuce, a fresh tomato slice, tangy pickles and our classic sauce",
+      "price": "10"
+    },
+    {
+    "name": "Double Cheeseburger",
+      "description": "Two Angus beef patties toped with melted cheese, tangy pickles,secret sauce",
+      "price": "6"
+    },
+    {
+      "name": "Onion Burger",
+      "description": "Smashed beef patty topped with Onion, melted cheddar cheese",
+      "price": "3"
+    },
+    {
+      "name": "Chicken Burger",
+      "description": "Your choice of grilled or breaded chicken breast topped with crisp lettuce, a fresh tomato slice, tangy pickles and aioli sauce. ",
+      "price": "5"
+    }
+  ],
+  "steaks": [
+    {
+      "name": "Steak n Fries",
+      "description": "Our tender grilled steak soaked in a special herb sauce. Served with French fries and baguette slices",
+      "price": "15"
+    },
+    {
+      "name": "Classic Steak",
+      "description": "Tender grilled beef fillet served with grilled fresh mushrooms, steamed broccoli and carrots, creamy pepper sauce and with your choice of mashed potatoes, skin-on fries or four cheese pasta",
+      "price": "20"
+    }
+    
+  ],"kebabs": [
+    {
+      "name": "Chicken Kebab",
+      "description": "Chunks of tender chicken breast with onions and peppers on a skewer.",
+      "price": "12"
+    },
+    {
+      "name": "Beef Kebab",
+      "description": "Chunks of beef with onions and peppers on a skewer",
+      "price": "15"
+    }
+  ],
+  "wings": [
+    {
+      "name": "Buffelo Wings (12pc)",
+      "price": "8"
+    },
+    {
+      "name": "BBQ Wings (12pc)" ,
+      "price": "8"
+    },
+    {
+      "name": "Spicy Asian Chicken Wings (12pc)" ,
+      "price": "8"
+    },
+    {
+      "name": "Korean Chicken Wings (12pc)" ,
+      "price": "8"
+    },
+    {
+      "name": "Honey BBQ Wings (12pc)" ,
+      "price": "8"
+    },
+    {
+      "name": "Buffalo Honey Hot Wings (12pc)" ,
+      "price": "8"
+    },
+    {
+      "name": "Flaming Hot Cheeto Wings (12pc)" ,
+      "price": "8"
+    }
+    
+  ],
+  
+  "sides": [
+    {
+      "name": "Fries",
+      "price": "5"
+    },
+    {
+      "name": "Onion Rings",
+      "price": "3"
+    },
+   
+    {
+      "name": "Mozarella Sticks",
+      "price": "3"
+    },
+    {
+      "name": "Chicken Balls",
+      "price": "4"
+    },
+  
+    {
+      "name": "Salad",
+      "price": "2"
+    }
+  ],
+  "drinks": [
+    {
+      "name": "Soft Drink",
+      "price": "3",
+      "category": "drink"
+    },
+    {
+      "name": "Beer (Heineken,Corona)",
+      "price": "4",
+      "category": "drink"
+    },
+    {
+      "name": "Iced Tea",
+      "price": "4",
+      "category": "drink"
+    },
+    {
+      "name": "Coffee",
+      "price": "5",
+      "category": "drink"
+    },
+    {
+      "name": "Water",
+      "price": "0.5",
+      "category": "drink"
+    }
+  ]
+}

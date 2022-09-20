@@ -1,0 +1,112 @@
+h2{
+    margin:  10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+    font-size: 30px;
+    color: black;
+     text-align: center;
+     font-weight: bold;
+  }
+  .menu {
+    border-radius: 1rem;
+    padding: 2rem 2.25rem 1rem;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    max-width: 50rem;
+    background-color: var(--light);
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+  }
+  
+  @media (min-width: 660px) {
+    .menu {
+      display: grid;
+      grid-gap: 4rem;
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  .menu-item {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+  }
+  
+  
+  @media (min-width: 660px) {
+    .logo {
+      margin-bottom: 0;
+    }
+  }
+  
+  .mains {
+    grid-column: 1 / 2;
+  }
+  
+  .mains-name {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 5px;
+    border-bottom: 0.5px solid black;
+    font-size: 20px;
+    margin: 0;
+    flex-grow: 1;
+  }
+  
+  .mains-description {
+    font-weight: bolder;
+    font-size: 15px;
+    text-align: left;
+    flex: 1 1 100%;
+    margin: 0.75rem 0 0;
+    color: var(--secondary);
+  }
+  
+  .aside {
+    grid-column: 2 / 3;
+  }
+  
+  .extras {
+    color: var(--secondary);
+  }
+  
+  .extras + .extras {
+    margin-top: 1.5rem;
+  }
+  
+  @media (min-width: 660px) {
+    .extras + .extras {
+      margin-top: 2.5rem;
+    }
+  }
+  
+  .extras .menu-item {
+    margin-bottom: 0.75rem;
+  }
+  
+  .extras-heading {
+    font-size: 27px;
+    margin: 0 0 1.5rem;
+    border-bottom: 1px solid black;
+  }
+  
+  .extras-name {
+    flex-grow: 1;
+  }
+  
+  .total {
+    grid-column: 1 / 3;
+    margin-top: 2.5rem;
+    padding: 0.75rem 0 1.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: sticky;
+    bottom: 0;
+    color: var(--secondary);
+    background-color: var(--light);
+    border-top: 1px solid var(--secondary);
+    box-shadow: 0 -0.5rem 0.75rem 0.5rem var(--light);
+  }
+  
+  

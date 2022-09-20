@@ -1,0 +1,63 @@
+.contact-form {
+     
+    padding: 30px;
+    max-width: 420px;
+    height: 80vh;
+    margin: 0 auto;
+}
+.datetime{
+    padding: 10px;
+    max-width: 420px;
+    margin-right: 10px;
+
+}
+p {
+    margin:  10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+   padding: 10px;
+   font-size: 30px;
+   color: black;
+    text-align: center;
+    font-weight: 500;
+}
+input[type=text],input[type=email],input[type=date],input[type=time], select, textarea {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=submit] {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    font-size: 15px;
+    transition: 0.1s ease;
+}
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+@media screen and (max-width :400){
+   input[type=text],input[type=email],input[type=date],input[type=time], select, textarea {
+       
+      margin: 10px;
+  }
+}
+.contact-form {
+     
+    padding: 30px;
+    max-width: 420px;
+    height: 110vh;
+    margin: 0 auto;
+}
